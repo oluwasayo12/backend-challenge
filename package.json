@@ -1,0 +1,21 @@
+{
+  "name": "futuricecalculator",
+  "version": "1.0.0",
+  "description": "The service offers an endpoint that base64 decodes calculus requests and returns the result.",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "test": "jest --detectOpenHandles"
+  },
+  "author": "Olusayo Oyedepo",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "jest": "^27.4.7",
+    "mathjs": "^10.0.2"
+  },
+  "devDependencies": {
+    "supertest": "^6.2.1"
+  }
+}
